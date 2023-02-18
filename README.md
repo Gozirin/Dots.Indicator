@@ -176,39 +176,3 @@ dependencies {
     wormDotsIndicator.attachTo(viewPager)
 ```
 
-## Support of ViewPager2
-The `attachTo` can take a `ViewPager` or a `ViewPager2`
-
-## Help Maintenance
-If you could help me to continue maintain this repo, buying me a cup of coffee will make my life really happy and get much energy out of it.
-
-<a href="https://www.buymeacoffee.com/tommybuonomo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## Changelog
-### 4.3
-- Fix [#144][i144], [#143][i143], [#139][i139], [#135][i135], [#133][i133], [#131][i131], [#126][i126], [#109][i109], [#95][i95], [#93][i93], [#86][i86], [#85][i85], [#80][i80], [#78][i78], [#73][i73], [#68][i68], [#58][i58]
-- Methods `setViewPager` and `setViewPager2` are now deprecated and replaced by `attachTo(...)`
-### 4.2
-Fix [#115](https://github.com/tommybuonomo/dotsindicator/issues/115)
-The library is now on MavenCentral.
-The library name moves from `com.tbuonomo.andrui:viewpagerdotsindicator` to `com.tbuonomo:dotsindicator`
-### 4.1.2
-Fix [#55][i55] and [#56][i56]
-### 4.1.1
-Fix crash
-### 4.1
-- Support RTL (fix [#32][i32] and [#51][i51])
-### 4.0
-- Support of ViewPager2 (fix [#40][i40])
-- Convert all the project to Kotlin
-- Migration to AndroidX
-- Fix [#37][i37]: findViewById, causing missing adapter error
-
-### 3.0.3
-- Fix [#20][i20]: Dots indicator initialises with the wrong number of dots initially
-### 3.0.2
-- Add attribute `selectedDotColor` and `progressMode` to `DotsIndicator`
-- Fix RTL issues and improve `DotsIndicator` globally
-### 2.1.0
-- Add attribute `dotsStrokeColor` to `SpringDotsIndicator` and `WormDotsIndicator`
-
